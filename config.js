@@ -1,10 +1,10 @@
 module.exports = {
 	helpCmdPerPage: 10, //- Number of commands per page of help command
 	lyricsMaxResults: 5, //- Number of results for lyrics command (Do not touch this value if you don't know what you are doing)
-	adminId: "UserId", //- Replace UserId with the Discord ID of the admin of the bot
-	token: process.env.token || "", //- Bot's Token
-	clientId: process.env.clientId || "", //- ID of the bot
-	clientSecret: process.env.clientSecret || "", //- Client Secret of the bot
+	adminId: "990012348209172562", //- Replace UserId with the Discord ID of the admin of the bot
+	token: process.env.token || "MTA5MDcyOTgzMzM5NjQ0NTI0NQ.GTKP3I.GpgTxvLS47aVRllnQNP7jbNnPwOw9t0sAucT8s", //- Bot's Token
+	clientId: process.env.clientId || "1090729833396445245", //- ID of the bot
+	clientSecret: process.env.clientSecret || "p2FMLtTqqQ9gzRwOFPdxxGX9ZxmYrhTI", //- Client Secret of the bot
 	port: 4200, //- Port of the API and Dashboard
 	scopes: ["identify", "guilds", "applications.commands"], //- Discord OAuth2 Scopes
 	serverDeafen: true, //- If you want bot to stay deafened
@@ -17,19 +17,19 @@ module.exports = {
 	autoQueue: false, //- When set to true, related songs will automatically be added to the queue
 	autoPause: true, //- When set to true, music will automatically be paused if everyone leaves the voice channel
 	debug: false, //- Debug mode
-	cookieSecret: "CodingWithSudhan is epic", //- Cookie Secret
+	cookieSecret: "Grande VendiMC", //- Cookie Secret
 	website: "http://localhost:4200", //- without the / at the end
 	// You need a lavalink server for this bot to work!!!!
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 	nodes: [
 		{
 			identifier: "Main Node", //- Used for indentifier in stats commands.
-			host: "", //- The host name or IP of the lavalink server.
-			port: 80, // The port that lavalink is listening to. This must be a number!
-			password: "", //- The password of the lavalink server.
+			host: "node1.kartadharta.xyz", //- The host name or IP of the lavalink server.
+			port: 443, // The port that lavalink is listening to. This must be a number!
+			password: "kdlavalink", //- The password of the lavalink server.
 			retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
 			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
-			secure: false, //- Can be either true or false. Only use true if ssl is enabled!
+			secure: true, //- Can be either true or false. Only use true if ssl is enabled!
 		},
 	],
 	embedColor: "#2f3136", //- Color of the embeds, hex supported
@@ -38,7 +38,7 @@ module.exports = {
 		status: "online", //- You can have online, idle, dnd and invisible (Note: invisible makes people think the bot is offline)
 		activities: [
 			{
-				name: "Music", //- Status Text
+				name: "VendiMC", //- Status Text
 				type: "LISTENING", //- PLAYING, WATCHING, LISTENING, STREAMING
 			},
 		],
